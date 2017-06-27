@@ -1,0 +1,26 @@
+{
+  "name": "my-schedule",
+  "version": "1.0.0",
+  "description": "email -> calandar",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axelbm/my-schedule.git"
+  },
+  "author": "Axel Michaud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axelbm/my-schedule/issues"
+  },
+  "homepage": "https://github.com/axelbm/my-schedule#readme",
+  "dependencies": {
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^19.0.0",
+    "lodash": "^4.17.4",
+    "opn": "^5.1.0",
+    "pdf2json": "^1.1.7"
+  }
+}
